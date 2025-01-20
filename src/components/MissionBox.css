@@ -1,0 +1,83 @@
+.mission-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .mission-box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .mission-box-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .mission-box-subheading {
+    padding: 10px;
+  }
+  
+  .mission-box-subheading h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .mission-box-content {
+    padding: 10px;
+    border: 1px dashed #ccc;
+    background: #f9f9f9;
+    margin: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .mission-box-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .generate-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .generate-button:hover {
+    background: #0056b3;
+  }
+  .mission-box table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc; /* Add border around the table */
+  }
+  
+  .mission-box th, .mission-box td {
+    border: 1px solid #ccc;
+    padding: 8px; 
+  }
+  
+  .mission-box th {
+    background-color: #f2f2f2; /* Light gray header background */
+  }
