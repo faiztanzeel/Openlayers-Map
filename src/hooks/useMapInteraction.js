@@ -33,7 +33,7 @@ const useMapInteraction = (map, source, interactionType, onInteractionEnd, onWay
     // Add the interaction to the map
     map.addInteraction(drawInteraction);
 
-    // Optional: Add "Enter" key support to finish drawing
+    //  Add "Enter" key support to finish drawing (optional)
     const handleKeyDown = (e) => {
       if (e.key === "Enter") {
         drawInteraction.finishDrawing();
@@ -49,7 +49,7 @@ const useMapInteraction = (map, source, interactionType, onInteractionEnd, onWay
     };
   }, [map, source, interactionType, onInteractionEnd]);
 
-  return currentWaypoints; // Return current waypoints
+  return currentWaypoints; 
 };
 
 export default useMapInteraction;
